@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=320; user-scalable=no" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Bank BPR Bali</title>
+<link rel="stylesheet" href="jquery.mobile/jquery.mobile-1.3.1.css"	type="text/css">
+<!-- JavaScript here -->
+<script type="text/javascript" src="jquery.mobile/jquery-1.7.2.min"></script>
+<script type="text/javascript" src="jquery.mobile/jquery.mobile-1.3.1.js"></script>
+<script type="text/javascript" src="jquery.mobile/jquery.mobile-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/cordova-2.7.0.js"></script>
+<script type="text/javascript" src="js/barcodescanner.js"></script>
+<script type="text/javascript" src="js/purl.js"></script>
+<script type="text/javascript" src="js/jquery.dateFormat-1.0.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div data-role="page" id="home" data-theme="c">
+		<div data-role="content">
+			<div id="branding">
+				<h1>Bank BPR Bali</h1>
+			</div>
+			<div class="choice_list">
+				<ul data-role="listview" data-inset="true">
+					<li><a href="trans_option.html?opt=1" data-transition="slidedown">
+					<h3>Setor Tunai</h3></a></li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li><a href="trans_option.html?opt=2" data-transition="slidedown">
+					<h3>Tarik Tunai</h3></a></li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li><a href="trans_list.html" data-transition="slidedown">
+					<h3>Lihat Transaksi</h3></a></li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li><a href="#" class="btn" onclick="exitApp();">
+					<h3>Keluar</h3></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /page -->
+</body>
+</html>
